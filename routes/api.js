@@ -54,7 +54,7 @@ router.post('/devices', function(req, res) {
     function(device, callback) {
       var plainDevice = device.get({plain: true});
       delete plainDevice['url'];
-      req.io.emit('device:state', plainDevice);
+      req.app.io.emit('device:state', plainDevice);
       callback(null, plainDevice);
     }
   ], function (err, device) {
