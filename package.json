@@ -1,7 +1,7 @@
 {
   "name": "anubis-controller",
   "version": "1.0.0",
-  "description": "Anubis Home Automation Controller Server",
+  "description": "Anubis Home Automation Server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
